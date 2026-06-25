@@ -42,8 +42,7 @@ public class WebSecurityConfig {
         CorsConfiguration c = new CorsConfiguration();
         c.setAllowedOrigins(List.of(
                 "http://localhost:4200",
-                "http://127.0.0.1:5500",
-                "https://dreamy-bublanina-a6c08b.netlify.app"
+                "https://kanalia-dashboard.vercel.app"
         ));
         c.setAllowedMethods(List.of("*"));
         c.setAllowedHeaders(List.of("*"));
